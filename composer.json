@@ -2,7 +2,7 @@
     "name": "lxcodes/trails",
     "description": "Craft 3 Twig filter to help generate breadcrumbs based off of URL segments",
     "type": "craft-plugin",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "keywords": [
         "craft",
         "cms",
