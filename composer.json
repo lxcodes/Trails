@@ -1,0 +1,43 @@
+{
+    "name": "lxcodes/trails",
+    "description": "Craft 3 Twig filter to help generate breadcrumbs based off of URL segments",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "trails"
+    ],
+    "support": {
+        "docs": "https://github.com/lxcodes/trails/blob/master/README.md",
+        "issues": "https://github.com/lxcodes/trails/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Ambrose",
+            "homepage": "https://github.com/lxcodes"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "lxcodes\\trails\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Trails",
+        "handle": "trails",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/lxcodes/trails/master/CHANGELOG.md",
+        "components": {
+            "trailsService": "lxcodes\\trails\\services\\TrailsService"
+        },
+        "class": "lxcodes\\trails\\Trails"
+    }
+}
